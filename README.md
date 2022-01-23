@@ -1,2 +1,2 @@
-# ludo_server
-ludo server
+# Triple Server
+Triple Server
