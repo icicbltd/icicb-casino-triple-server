@@ -7,7 +7,7 @@ const cookieParser = require('cookie-parser');
 var cors = require('cors');
 const util = require('util');
 var server = require('http').createServer(app);
-var port = 3000;
+var port = 3306;
 var io = require('socket.io')(server);
 axios.defaults.headers.common["Authorization"] = process.env.SECRETCODE;
 
